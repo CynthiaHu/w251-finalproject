@@ -9,6 +9,4 @@ interval=5min # 1min, 5min, 15min, 30min, 60min
 ### Stock time series - daily adjusted
 # returns daily time series (date, daily open, daily high, daily low, daily close, daily volume, daily adjusted close, and split/dividend events) of the equity specified
 
-wget -O msft.csv "https://www.alphavantage.co/query?function=TIME_SERIES_DAILY_ADJUSTED&symbol=MSFT&apikey=YMKEPIY3AWI2CV5G&datatype=csv"
-
-
+wget -O msft.csv "https://www.alphavantage.co/query?function=TIME_SERIES_DAILY_ADJUSTED&symbol=MSFT&&outputsize=full&apikey=YMKEPIY3AWI2CV5G&datatype=csv"
