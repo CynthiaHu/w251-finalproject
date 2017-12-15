@@ -1,4 +1,4 @@
-Here is the instruction of loading data to Cassandra DB.
+## Here is the instruction of loading data to Cassandra DB.
 
 Make sure that cassandra is started.
 ```
