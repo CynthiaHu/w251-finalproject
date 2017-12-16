@@ -1,3 +1,5 @@
+
+
 ## Here is the instruction of loading data to Cassandra DB.
 
 Make sure that cassandra is started.
@@ -20,3 +22,5 @@ cqlsh> create table stock.msft (timestamp text PRIMARY KEY, open float, high flo
 cqlsh> COPY stock.msft FROM '/root/finalproject/msft.csv' WITH HEADER = true;
 cqlsh> select * from stock.msft;
 ```
+
+For cluster, we may need 'NetworkTopologyStrategy' class.
