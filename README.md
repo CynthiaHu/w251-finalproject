@@ -1,3 +1,4 @@
+
 # Market Data Collection and Analysis Tool
 Amit Tyagi, Cynthia Hu, John Tabbone, Matthew Holmes, Surya Nimmagadda
 
@@ -22,5 +23,7 @@ Jupyter Notebook is used as the interactive tool to get end user's input, visuli
 
 ## Data Source
 http://www.dxfeed.com
+
 https://www.alphavantage.co
+
 http://www.quandl.com
